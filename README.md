@@ -34,3 +34,7 @@ This branch includes an optional WebSocket sidecar. The default Compose file
 retains the stock native proxy. See [web-boost](web-boost/README.md) for the
 explicit overlay installation, protocol, tests, and limitations. Browser/WASM
 integration, full Docker deployment, and live Signal connectivity are unverified.
+
+For the static Twang diagnostic client, [cloudflare/](cloudflare/README.md)
+contains a separate Workers-native WSS byte relay, its tests, and deployment
+commands. It preserves browser-to-Signal inner TLS and has no account storage.

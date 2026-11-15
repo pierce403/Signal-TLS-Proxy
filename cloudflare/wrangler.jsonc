@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "signal-webboost",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-14",
+  "workers_dev": false,
+  "routes": [{ "pattern": "proxy.twang.chat", "custom_domain": true }],
+  "observability": { "enabled": false }
+}
