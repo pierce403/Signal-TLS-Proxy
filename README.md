@@ -27,3 +27,10 @@ We endeavor to provide updates to this repository thirty days in advance of them
 ## Contributions welcome
 
 We want this proxy to be simple to deploy for a broad population, but we know that it won’t fit all deployments—especially  advanced users that already have running servers or specific technology preferences. We welcome contributions that make incremental improvements, updates, and improve compatibility, but aren’t considering significant architectural changes.
+
+## Experimental browser transport (opt-in)
+
+This branch includes an optional WebSocket sidecar. The default Compose file
+retains the stock native proxy. See [web-boost](web-boost/README.md) for the
+explicit overlay installation, protocol, tests, and limitations. Browser/WASM
+integration, full Docker deployment, and live Signal connectivity are unverified.
